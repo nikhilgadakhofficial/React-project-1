@@ -1,0 +1,86 @@
+.card-container{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 70px;
+}
+.card-div{
+    width: 600px;
+    height: 700px;
+    
+    padding: 20px;
+   
+}
+.hading{
+    font-size: 60px;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.titile{
+    margin-top: 40px;
+    font-size: 25px;
+    
+}
+.btn{
+    background-color:hwb(36 2% 5%);
+    padding: 8px 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+.btn:hover{
+    background-color:hwb(36 2% 5%);
+    padding: 8px 20px;
+    color: rgb(0, 0, 0);
+}
+.A-img-1{
+    height: 290px;
+    margin: 20px;
+}
+
+
+.A-img-2{
+    height: 220px;
+    margin: 20px;
+}
+.A-card{
+    height: 750px;
+    width: 620px;  
+}
+.container-obj{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.hading-about{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.card-of-about{
+    height: 700px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 0px;
+    padding: 10px;
+    
+}
+.hading-of-about{
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+}
+.title-of-about{
+text-align: center;
+margin: 40px;
+font-weight: 400;
+font-size: 19px;
+}
+.img-of-about{
+   height: 800px;
+  
+  
+}

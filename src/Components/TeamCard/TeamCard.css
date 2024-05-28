@@ -1,0 +1,21 @@
+.tame-card{
+    margin:10px ;
+    padding: 20px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 90px;
+}
+.tame-img{
+height: 350px;
+display: block;
+margin: 10px auto;
+}
+.team-name{
+    text-align: center;
+    font-size: 25px;
+
+}
+.team-titlel{
+text-align: center;
+font-weight: 600;
+}

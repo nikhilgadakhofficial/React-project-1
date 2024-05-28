@@ -1,0 +1,26 @@
+.menu-card{
+    margin:10px ;
+    padding: 20px;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 90px;
+}
+.menu-img{
+height: 250px;
+display: block;
+border-radius: 0px 25px;
+margin: 10px auto;
+}
+.menu-title{
+font-size: 25px;
+}
+.menu-rs{
+color: hwb(36 2% 5%);
+font-weight: 700;
+}
+.menu-cat{
+
+}
+.menu-des{
+
+}
