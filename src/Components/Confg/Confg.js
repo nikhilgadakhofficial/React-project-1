@@ -113,4 +113,24 @@ const TEAM = [
         titile : "Sous Chef"
     }
 ]
-export {DATA ,ADD , MANU , TEAM}
+const BOLG = [
+    {
+        img : "https://www.yudaah.com/demo/fast-food-website-template/assets/images/blog/1.jpg",
+        hading : "Share your journey to success",
+        data : "Blogging is, at its most basic, storytelling. Luckily as a restaurant, you have many stories to tell. From your lightbulb moment to open your own place, to your expeditions researching menu items, to your observations of the changing food industry – there are so many tidbits about your journey worth sharing Washington Street Eats from Providence, Rhode Island, uses their blog to share their history, new and old flavors at their restaurant, and to even feature their partners. They make it clear they would be nowhere without their customers, and invite them to join the journey and share their own stories in the comments.",
+        date : " Nikhil Patil july 28, 2020"
+    },
+    {
+        img : "https://www.yudaah.com/demo/fast-food-website-template/assets/images/blog/2.jpg",
+        hading : "Announce big changes to your restaurant",
+        data : "Many restaurant websites have a press page where they share newspaper and magazine mentions or awards they’ve won. Small changes are not always press-worthy, but they are worthy of your own blog. Publish your own press release about new menu items, new locations, or new employees. Make your blog an official news source for your restaurant. Amato’s, an Italian eatery in New England, announced the opening of new stores on their blog, with addresses, phone numbers, and links to each restaurants’ take-out menus.",
+        date : " Om Sinh May 21, 2020"
+    },
+    {
+        img : "https://www.yudaah.com/demo/fast-food-website-template/assets/images/blog/3.jpg",
+        hading : " Feature your specials",
+        data : "Your specials are special for a reason, right? Why not flaunt them on the blog? Explain what makes your latest summer salad so tasty, or why you chose to feature new ingredients in that pasta dish everyone loves. You’re essentially upselling items on the blog, hopefully attracting customers to your establishment to try that delicious dish they read about onlineUpper Crust Pizzeria, with several locations in Massachusetts, Virginia, and California, uses their blog to feature pizzas of the month, including appetizing pictures and tasty descriptions. Rather than overloading the reader with too much writing, these ",
+        date : " Sam Joy June 22, 2020"
+    }
+]
+export {DATA ,ADD , MANU , TEAM, BOLG}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import { DATA , ADD , MANU, TEAM} from '../../Components/Confg/Confg'
+import { DATA , ADD , MANU, TEAM, BOLG} from '../../Components/Confg/Confg'
 import Card from '../../Components/Card/Card'
 import Navbar from '../../Components/Navbar/Navbar'
 import ImgAbout1 from './about-1.jpg'
@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 import CardOf from '../../Components/CardOf/CardOf'
 import CardOfMenu from '../../Components/CardOfMenu/CardOfMenu'
 import TeamCard from '../../Components/TeamCard/TeamCard'
+import BolgCard from '../BolgCard/BolgCard'
 
 function Home() {
   return (
@@ -121,6 +122,20 @@ Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Consequuntur, Natus Ma
  }
 
   </div>
+
+  <h1 className='hading-about'>Explore Our News</h1>
+
+  <div className='container-obj'>
+    
+    {
+     BOLG.map((coursObje, index)=>{
+      const {img,  hading,  data,  date}= coursObje;
+      return <BolgCard img={img} hading={hading} data={data} date={date} />
+     })
+ }
+
+  </div>
+  <h1 className='hading-about'>Get In Touch</h1>
     </div>
   )
 }

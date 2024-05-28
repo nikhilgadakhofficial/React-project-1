@@ -1,0 +1,26 @@
+.blog-card{
+    margin:10px ;
+    padding: 20px;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 60px;
+}
+.bolg-img{
+height:280px ;
+display: block;
+margin: 10px auto;
+}
+.bolg-hading{
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+}
+.bolg-data{
+text-align: justify;
+font-weight: 500;
+}
+.bolg-date{
+text-align: end;
+font-size: 18px;
+color: hwb(36 2% 5%);;
+}
