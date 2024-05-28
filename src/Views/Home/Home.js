@@ -12,6 +12,7 @@ import CardOf from '../../Components/CardOf/CardOf'
 import CardOfMenu from '../../Components/CardOfMenu/CardOfMenu'
 import TeamCard from '../../Components/TeamCard/TeamCard'
 import BolgCard from '../BolgCard/BolgCard'
+import Footer from '../../Components/Footer/Footer'
 
 function Home() {
   return (
@@ -136,6 +137,34 @@ Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Consequuntur, Natus Ma
 
   </div>
   <h1 className='hading-about'>Get In Touch</h1>
+
+  <div className='container-obj'>
+
+      <div className='map-card'>
+      <form>
+      <input className='input-tex' type="text" placeholder="Enter Your name" />
+    </form>
+    <form>
+      <input className='input-tex' type="text" placeholder="Enter Your Email" />
+    </form>
+    <form>
+      <input className='input-tex' type="text" placeholder="Enter Your Mobil Number" />
+    </form>
+    <form>
+      <input className='input-tex-msg' type="text" placeholder="Enter Your Message" />
+    </form>
+
+    <button className='message-btn' > SEND MESSAGE </button>
+      </div>
+
+      <div  className='map-card'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15054.689722682811!2d74.84874048598147!3d19.38333135176058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc9947273cd64f%3A0x8fa72555d843e2f3!2sShani%20Shingnapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1716911652875!5m2!1sen!2sin" className='map-div' width="600" height="590"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     
+    
+
+  </div>
+  <Footer/>
     </div>
   )
 }
