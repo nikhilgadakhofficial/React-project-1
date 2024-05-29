@@ -145,4 +145,28 @@ font-size: 19px;
         height: 120px;
         margin: 15px;
     }
+
+    .img-of-about{
+        height: 600px;
+       
+       
+     }
+     
+.hading-of-about{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.title-of-about{
+text-align: center;
+margin: 20px;
+font-weight: 400;
+font-size: 13px;
+}
+.hading-about{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 50px;
+}
 }
