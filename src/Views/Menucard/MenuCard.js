@@ -3,12 +3,15 @@ import './MenuCard.css'
 import CardOfMenu from '../../Components/CardOfMenu/CardOfMenu';
 import { MANU } from '../../Components/Confg/Confg';
 import { useParams } from 'react-router-dom';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 function MenuCard() {
     const { id } = useParams();
     const val = id;
   return (
     
          <div className='container-obj'>
+          <Navbar/>
     
     {
      MANU.map((coursObje, index)=>{
@@ -19,7 +22,7 @@ function MenuCard() {
       }
      })
  }
-
+   <Footer/>
   </div>
    
   )
