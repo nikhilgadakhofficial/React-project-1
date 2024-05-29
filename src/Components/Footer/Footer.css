@@ -1,18 +1,17 @@
-.footer-cont{
-width: 95%;
-display: block;
-margin: 20px auto;
-height: 500px;
-background-color: #fafafa;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-padding: 10px;
+.icon-h{
+    height: 37px;
+    margin-right: 6px;
 }
-.footer-card{
-height: 460px;
-width: 300px;
-
-
+li:hover{
+    color: #fb5f04;
+}
+a:hover{
+    color: #fb5f04;
+}
+.m{
+    margin-top: 30px;
+    background-color: #fafafa;
+}
+.c{
+    color: black;
 }

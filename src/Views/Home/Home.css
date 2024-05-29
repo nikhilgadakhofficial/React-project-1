@@ -122,3 +122,27 @@ font-size: 19px;
     font-weight: bold;
     border: none;
 }
+
+@media screen and (max-width: 350px){
+    .hading{
+        font-size: 30px;
+    }
+    .titile{
+        margin-top: 20px;
+    font-size: 18px;
+        
+    }
+    .btn{    
+        padding: 5px 10px;
+    }
+    .A-img-1{
+        height: 210px;
+        margin: 15px;
+    }
+    
+    
+    .A-img-2{
+        height: 120px;
+        margin: 15px;
+    }
+}
